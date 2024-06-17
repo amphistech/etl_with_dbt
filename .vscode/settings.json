@@ -1,0 +1,37 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "mySQL",
+            "database": "amphisus_gibb158",
+            "username": "root",
+            "group": "1",
+            "connectionTimeout": 50,
+            "password": ""
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true,
+                "instanceName": "DESKTOP-52N5CQF"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "SQLServer",
+            "group": "Main",
+            "database": "model",
+            "username": "DESKTOP-52N5CQF\\syrus",
+            "password": ""
+        }
+    ]
+}
